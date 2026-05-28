@@ -78,9 +78,9 @@ function Nav({ onContact }) {
             <Crown />
             <div style={{ lineHeight: 1.05 }}>
               <div className="clash" style={{ fontSize: 20, letterSpacing: "-0.03em" }}>
-                J.P. SINGH <span style={{ fontFamily: "Gambarino, Georgia, serif", fontStyle: "italic", fontWeight: 400, letterSpacing: "-0.02em" }}>& Co.</span>
+                ARCHITECTS <span style={{ fontFamily: "Gambarino, Georgia, serif", fontStyle: "italic", fontWeight: 400, letterSpacing: "-0.02em" }}>Accord</span>
               </div>
-              <div className="uc" style={{ fontSize: 10, color: "var(--mute)", letterSpacing: "0.16em" }}>Est. 1998 · Mohali</div>
+              <div className="uc" style={{ fontSize: 10, color: "var(--mute)", letterSpacing: "0.16em" }}>Architecture & Design · Mohali</div>
             </div>
           </a>
 
@@ -97,7 +97,7 @@ function Nav({ onContact }) {
               style={{ fontSize: 12, letterSpacing: "0.12em", padding: "12px 22px", borderRadius: 999, border: "1px solid var(--ink-2)", background: "transparent", color: "var(--ink-2)", cursor: "pointer", transition: "background 200ms ease, color 200ms ease" }}
               onMouseEnter={(e) => { e.currentTarget.style.background = "var(--ink-2)"; e.currentTarget.style.color = "var(--bg)"; }}
               onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; e.currentTarget.style.color = "var(--ink-2)"; }}
-            >Schedule a Viewing</button>
+            >Schedule a Consultation</button>
           </nav>
 
           {/* Hamburger */}
@@ -138,9 +138,9 @@ function Nav({ onContact }) {
             onClick={() => { setMobileOpen(false); setTimeout(onContact, 300); }}
             className="uc"
             style={{ fontSize: 13, letterSpacing: "0.12em", padding: "18px 28px", borderRadius: 999, border: "none", background: "var(--ink-2)", color: "var(--bg)", cursor: "pointer", textAlign: "center" }}
-          >Schedule a Viewing →</button>
-          <a href="tel:+919814961008" className="uc" style={{ fontSize: 12, letterSpacing: "0.14em", color: "var(--mute)", textAlign: "center" }}>
-            +91 98149 61008
+          >Schedule a Consultation →</button>
+          <a href="tel:+911725095173" className="uc" style={{ fontSize: 12, letterSpacing: "0.14em", color: "var(--mute)", textAlign: "center" }}>
+            0172 509 5173
           </a>
         </div>
       </div>
@@ -153,7 +153,7 @@ function Crown() {
     <svg width="38" height="38" viewBox="0 0 40 40" fill="none">
       <circle cx="20" cy="20" r="19" stroke="#111" strokeWidth="1" />
       <path d="M10 22 L14 14 L20 19 L26 14 L30 22 L28 26 L12 26 Z" fill="#c89a3c" />
-      <text x="20" y="24" textAnchor="middle" fontFamily="Clash Display, sans-serif" fontWeight="700" fontSize="9" fill="#111" letterSpacing="-0.02em">JP</text>
+      <text x="20" y="24" textAnchor="middle" fontFamily="Clash Display, sans-serif" fontWeight="700" fontSize="9" fill="#111" letterSpacing="-0.02em">AA</text>
     </svg>
   );
 }
@@ -166,39 +166,39 @@ function Hero() {
         <div className="hero-top" style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 32, flexWrap: "wrap" }}>
           <div style={{ maxWidth: 360 }}>
             <div className="uc" style={{ fontSize: 11, color: "var(--mute)", letterSpacing: "0.18em", marginBottom: 16 }}>
-              ◇ Index № 01 — Property · Investment · Counsel
+              ◇ Index № 01 — Architecture · Interior Design · Civil Engineering
             </div>
             <p style={{ margin: 0, fontSize: 15, color: "var(--ink-2)", lineHeight: 1.55, maxWidth: 320 }}>
-              Tri-city specialists for residential, commercial and land assets. GMADA and RERA accredited; quietly placing portfolios since 1998.
+              Tri-city specialists in residential and commercial architecture, interior design, and turnkey projects — based in Mohali, Punjab.
             </p>
           </div>
           <div className="hero-stats" style={{ display: "flex", gap: 48, alignItems: "flex-start", flexWrap: "wrap" }}>
-            <Stat n="₹ 1,400 Cr+" label="Transactions closed" />
-            <Stat n="27" label="Years in practice" />
-            <Stat n="612" label="Active mandates" />
+            <Stat n="200+" label="Projects completed" />
+            <Stat n="15+" label="Years in practice" />
+            <Stat n="150+" label="Happy clients" />
           </div>
         </div>
 
         <div style={{ flex: 1, display: "flex", flexDirection: "column", justifyContent: "center", paddingTop: 56, paddingBottom: 24 }}>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 8 }}>
-            <Echo size="clamp(64px, 14vw, 280px)">PROPERTY</Echo>
+            <Echo size="clamp(64px, 14vw, 280px)">DESIGN.</Echo>
             <Echo size="clamp(64px, 14vw, 280px)">
-              <span style={{ fontFamily: "Gambarino, Georgia, serif", fontStyle: "italic", fontWeight: 400, letterSpacing: "-0.04em" }}>as </span>
-              CAPITAL.
+              <span style={{ fontFamily: "Gambarino, Georgia, serif", fontStyle: "italic", fontWeight: 400, letterSpacing: "-0.04em" }}>Build. </span>
+              TRANSFORM.
             </Echo>
           </div>
         </div>
 
         <div className="hero-bottom" style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", borderTop: "1px solid var(--line)", paddingTop: 24, gap: 20, flexWrap: "wrap" }}>
           <div className="uc" style={{ fontSize: 11, color: "var(--mute)", letterSpacing: "0.18em" }}>
-            SCO-545 · Sector 70 · Mohali · Punjab
+            SCO 545, Top Floor · Sector 70 · Mohali · Punjab
           </div>
           <div style={{ display: "flex", gap: 28, alignItems: "center", flexWrap: "wrap" }}>
             <a href="#portfolio" className="uc" style={{ fontSize: 12, letterSpacing: "0.14em", borderBottom: "1px solid var(--ink)", paddingBottom: 4 }}>
               View Portfolio →
             </a>
-            <a href="tel:+919814961008" className="uc" style={{ fontSize: 12, letterSpacing: "0.14em", color: "var(--mute)" }}>
-              +91 98149 61008
+            <a href="tel:+911725095173" className="uc" style={{ fontSize: 12, letterSpacing: "0.14em", color: "var(--mute)" }}>
+              0172 509 5173
             </a>
           </div>
         </div>
@@ -227,15 +227,15 @@ function Philosophy() {
         <div style={{ maxWidth: 1100, margin: "0 auto", textAlign: "center" }}>
           <div className="uc" style={{ fontSize: 11, color: "var(--mute)", letterSpacing: "0.18em", marginBottom: 36 }}>◇ Practice Notes</div>
           <p className="clash" style={{ fontSize: "clamp(28px, 5.4vw, 76px)", letterSpacing: "-0.04em", lineHeight: 1.05, margin: 0, fontWeight: 600 }}>
-            We do not sell <span className="serif-it" style={{ fontSize: "1.05em" }}>square feet</span>.<br/>
-            We place <span className="serif-it" style={{ fontSize: "1.05em" }}>capital</span> where the city is going.
+            We do not just design <span className="serif-it" style={{ fontSize: "1.05em" }}>spaces</span>.<br/>
+            We shape the way <span className="serif-it" style={{ fontSize: "1.05em" }}>people live</span> within them.
           </p>
         </div>
         <div style={{ height: 72 }} />
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 32, borderTop: "1px solid var(--line)", paddingTop: 48 }}>
-          <Column no="01" head="Counsel before catalogue" body="Every brief begins with the balance sheet, not the brochure. We model the holding period, the exit and the tax shape before a single site is shown." />
-          <Column no="02" head="Title, in plain English" body="Mutation, jamabandi, fard, encumbrance, allotment, conveyance — laid out in a one-page memo per asset. No ambiguity reaches the closing table." />
-          <Column no="03" head="Quiet placement" body="Roughly two-thirds of our inventory never reaches a public portal. Mandates are matched discreetly between long-standing buyers and sellers." />
+          <Column no="01" head="Brief before blueprint" body="Every project begins with a careful reading of the client's vision, lifestyle, and budget. We design with intention — not just with aesthetics." />
+          <Column no="02" head="Architecture meets engineering" body="Our practice spans architecture, civil engineering, and interior design. Every detail — structural or spatial — is resolved under one roof." />
+          <Column no="03" head="End-to-end delivery" body="From concept to completion, we manage every phase — design, approvals, procurement, and execution — so clients receive a finished space, not just a set of drawings." />
         </div>
       </div>
     </section>
@@ -266,10 +266,10 @@ function Showcase({ onOpen, properties }) {
       <div className="container">
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 40, gap: 24, flexWrap: "wrap" }}>
           <h2 className="clash" style={{ fontSize: "clamp(36px, 6vw, 88px)", letterSpacing: "-0.05em", margin: 0, fontWeight: 700, flex: "1 1 300px", minWidth: 0 }}>
-            Featured <span className="serif-it" style={{ fontWeight: 400 }}>placements</span>
+            Featured <span className="serif-it" style={{ fontWeight: 400 }}>projects</span>
           </h2>
           <div style={{ flex: "0 1 320px", color: "var(--ink-2)", fontSize: 14, lineHeight: 1.5, paddingTop: 12 }}>
-            A glance at four assets currently with the desk. Tap any tile to open the full memo.
+            A selection of recent work across residential, commercial, and interior design. Tap any tile to explore the project.
           </div>
         </div>
         <div className="showcase-grid" style={{ display: "grid", gridTemplateColumns: "repeat(12, 1fr)", gridAutoRows: "minmax(200px, auto)", gap: 12 }}>
@@ -320,14 +320,14 @@ function Portfolio({ properties, onOpen }) {
         <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 24, flexWrap: "wrap", marginBottom: 28 }}>
           <div style={{ flex: "1 1 300px", minWidth: 0 }}>
             <div className="uc" style={{ fontSize: 11, color: "var(--mute)", letterSpacing: "0.18em", marginBottom: 16 }}>
-              ◇ Index № 02 — Live Mandates · {view.length} of {properties.length}
+              ◇ Index № 02 — Project Portfolio · {view.length} of {properties.length}
             </div>
             <h2 className="clash" style={{ fontSize: "clamp(48px, 9vw, 148px)", letterSpacing: "-0.06em", margin: 0, lineHeight: 0.9, fontWeight: 700 }}>
               The <span className="serif-it" style={{ fontWeight: 400 }}>Portfolio</span>
             </h2>
           </div>
           <div style={{ flex: "0 1 360px", color: "var(--ink-2)", fontSize: 14, lineHeight: 1.55, paddingTop: 20 }}>
-            Each entry is title-clean, dues-paid and personally inspected by the desk. Click a row for the full memo, photographs and a viewing slot.
+            Each project is personally designed and delivered by the Architects Accord team. Click a row to explore the brief, photographs, and project details.
           </div>
         </div>
 
@@ -357,11 +357,11 @@ function Portfolio({ properties, onOpen }) {
 
         <div style={{ marginTop: 40, display: "flex", justifyContent: "space-between", alignItems: "center", gap: 16, flexWrap: "wrap" }}>
           <div className="uc" style={{ fontSize: 11, letterSpacing: "0.18em", color: "var(--mute)" }}>
-            ⓘ Off-market inventory available on request — call the desk.
+            ⓘ Custom and turnkey projects available — speak to the practice.
           </div>
           <a href="#contact" className="uc"
             style={{ fontSize: 12, letterSpacing: "0.14em", padding: "14px 24px", borderRadius: 999, background: "var(--ink-2)", color: "var(--bg)", display: "inline-flex", alignItems: "center", gap: 10 }}
-          >Request Off-market List <span style={{ fontSize: 16 }}>→</span></a>
+          >Start a Project <span style={{ fontSize: 16 }}>→</span></a>
         </div>
       </div>
     </section>
@@ -493,7 +493,7 @@ function DetailContent({ p, onClose }) {
         </div>
 
         <div className="tab-bar" style={{ display: "flex", gap: 24, borderBottom: "1px solid var(--line)", marginTop: 44, marginBottom: 28 }}>
-          {["Overview", "Specifications", "Title & Compliance", "Viewing"].map((t, i) => (
+          {["Overview", "Specifications", "Project Details", "Enquiry"].map((t, i) => (
             <button key={t} onClick={() => setTab(i)} className="uc"
               style={{ fontSize: 11, letterSpacing: "0.16em", padding: "14px 0", border: "none", background: "transparent", color: tab === i ? "var(--ink)" : "var(--mute)", borderBottom: "2px solid " + (tab === i ? "var(--ink)" : "transparent"), cursor: "pointer", whiteSpace: "nowrap", flexShrink: 0 }}
             >{t}</button>
@@ -580,15 +580,15 @@ function Compliance({ p }) {
   return (
     <div>
       <div className="compliance-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
-        <ComplianceCard h="RERA Registration" v={p.rera} note="Punjab Real Estate Regulatory Authority" />
-        <ComplianceCard h="Approval" v="GMADA Sanctioned" note="Greater Mohali Area Development Authority" />
-        <ComplianceCard h="Title" v="Clear, single owner" note="Fard, jamabandi and mutation verified by the desk" />
-        <ComplianceCard h="Dues" v="All cleared" note="Property tax · Electricity · Water · Maintenance" />
+        <ComplianceCard h="Project Reference" v={p.rera} note="Architects Accord internal project code" />
+        <ComplianceCard h="Status" v="Designed & Delivered" note="Project completed and handed over to client" />
+        <ComplianceCard h="Scope" v={p.subType} note="Full design, engineering, and execution by the practice" />
+        <ComplianceCard h="Location" v={p.locality} note="Chandigarh tri-city area" />
       </div>
       <div style={{ marginTop: 24, padding: 24, background: "var(--paper)", border: "1px solid var(--line)", borderRadius: 6 }}>
-        <div className="uc" style={{ fontSize: 10, letterSpacing: "0.16em", color: "var(--mute)", marginBottom: 8 }}>Desk Note</div>
+        <div className="uc" style={{ fontSize: 10, letterSpacing: "0.16em", color: "var(--mute)", marginBottom: 8 }}>Practice Note</div>
         <p style={{ margin: 0, fontSize: 15, color: "var(--ink-2)", lineHeight: 1.6 }}>
-          A complete title memo (12 pages) and a physical inspection report are released to a buyer on confirmation of intent. Token cheques are held in escrow with our retained law firm at Chandigarh District Court.
+          A complete design brief, drawings package, and material schedule are shared with clients on signing of the engagement letter. All projects are managed end-to-end by Ar. Prabhjot Bhandari and the Architects Accord team.
         </p>
       </div>
     </div>
@@ -610,7 +610,7 @@ function Viewing({ p }) {
   return (
     <div>
       <p style={{ fontSize: 15, color: "var(--ink-2)", lineHeight: 1.6, marginTop: 0 }}>
-        Viewings of <strong>{p.code}</strong> at <strong>{p.locality}</strong> are arranged by appointment. Please leave a contact and a time window; the desk responds within four working hours.
+        Consultations for <strong>{p.code}</strong> at <strong>{p.locality}</strong> are arranged by appointment. Please leave a contact and a preferred time; the practice responds within four working hours.
       </p>
       {!sent ? (
         <form onSubmit={(e) => { e.preventDefault(); setSent(true); }} className="viewing-form"
@@ -623,10 +623,10 @@ function Viewing({ p }) {
           <Field label="Note" name="note" textarea wide placeholder="Anything we should know — funding, holding period, comparables you have seen…" />
           <div style={{ gridColumn: "1 / -1", display: "flex", gap: 16, alignItems: "center", marginTop: 8, flexWrap: "wrap" }}>
             <button type="submit" className="uc" style={{ fontSize: 12, letterSpacing: "0.14em", padding: "16px 28px", borderRadius: 999, background: "var(--ink-2)", color: "var(--bg)", border: "none", cursor: "pointer" }}>
-              Request Viewing →
+              Schedule a Consultation →
             </button>
-            <a href="tel:+919814961008" className="uc" style={{ fontSize: 12, letterSpacing: "0.14em", color: "var(--mute)" }}>
-              or call +91 98149 61008
+            <a href="tel:+911725095173" className="uc" style={{ fontSize: 12, letterSpacing: "0.14em", color: "var(--mute)" }}>
+              or call 0172 509 5173
             </a>
           </div>
         </form>
@@ -656,12 +656,14 @@ function Field({ label, name, type = "text", textarea, wide, ...rest }) {
 /* ───────────────────── Services ───────────────────── */
 function Services() {
   const items = [
-    { no: "i", head: "Residential Brokerage", body: "Independent kothis, apartments and builder floors across Mohali, Chandigarh, Zirakpur and Kharar. End-to-end from search to registry." },
-    { no: "ii", head: "Commercial Placements", body: "SCOs, showrooms, office space and built-to-suit. We represent owners on the sell-side and corporates on tenant fit-out advisory." },
-    { no: "iii", head: "Land & Plots", body: "GMADA, JLPL, PUDA and private colonies. Allotment paperwork, dues clearance, conveyance and mutation handled in-house." },
-    { no: "iv", head: "Investment Advisory", body: "Holding-period modelling, micro-market reports, rental yield projections and tax-efficient structuring for HNI and NRI buyers." },
-    { no: "v", head: "Property Management", body: "For NRI clients — rental management, statutory filings, society liaison, and a quarterly photographic property report." },
-    { no: "vi", head: "Title & Due Diligence", body: "Pre-purchase memos, encumbrance certificate review and litigation searches in association with a panel of Chandigarh advocates." },
+    { no: "i", head: "Residential Architecture", body: "Custom homes, kothis, and apartments — designed with precision and built to last. We handle everything from concept to completion across the Chandigarh tri-city." },
+    { no: "ii", head: "Commercial Architecture", body: "SCOs, showrooms, offices, and built-to-suit commercial spaces. We deliver functional, well-designed environments that work for the business." },
+    { no: "iii", head: "Interior Design", body: "Residential and commercial interiors — space planning, material selection, lighting design, and custom furniture. Every detail resolved before site begins." },
+    { no: "iv", head: "Civil Engineering", body: "Structural design, site supervision, and construction management. Our in-house engineering capability ensures the build matches the design intent." },
+    { no: "v", head: "Turnkey Projects", body: "Full turnkey delivery — architecture, interiors, civil works, fit-out, and handover. One practice, one point of contact, zero gaps." },
+    { no: "vi", head: "Renovations & Fit-outs", body: "Transforming existing spaces — residential renovations, office fit-outs, and commercial refurbishments. Minimal disruption, maximum impact." },
+    { no: "vii", head: "Furniture Design & Supply", body: "Custom furniture designed to the project and manufactured to specification. Bespoke joinery, upholstery, and loose furniture for residential and commercial clients." },
+    { no: "viii", head: "Valuation Services", body: "Independent property valuation for residential and commercial assets across Mohali and the Chandigarh tri-city. Transparent, documented, and impartial." },
   ];
   return (
     <section id="insights" style={{ paddingTop: 100, paddingBottom: 100, background: "var(--bg)" }}>
@@ -671,7 +673,7 @@ function Services() {
             Bespoke <span className="serif-it" style={{ fontWeight: 400 }}>services</span>
           </h2>
           <div style={{ flex: "0 1 340px", fontSize: 14, color: "var(--ink-2)", lineHeight: 1.55, paddingTop: 20 }}>
-            Six practice areas, one desk. Every mandate is run by Mr. Singh himself with a small team of analysts.
+            Eight practice areas, one firm. Every project is led by Ar. Prabhjot Bhandari with a dedicated design and execution team.
           </div>
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 14 }}>
@@ -694,7 +696,7 @@ function ServiceCard({ no, head, body }) {
       <h3 className="clash" style={{ fontSize: "clamp(20px,2.5vw,24px)", letterSpacing: "-0.03em", margin: 0, lineHeight: 1.1, fontWeight: 600 }}>{head}</h3>
       <p style={{ marginTop: 14, color: "var(--ink-2)", fontWeight: 300, fontSize: 14, lineHeight: 1.6 }}>{body}</p>
       <div className="uc" style={{ marginTop: 20, fontSize: 11, letterSpacing: "0.18em", fontWeight: 700, display: "inline-flex", alignItems: "center", gap: 10 }}>
-        Engage the desk
+        Start a project
         <span style={{ display: "inline-block", transition: "transform 350ms ease", transform: hov ? "translateX(8px)" : "translateX(0)" }}>→</span>
       </div>
     </a>
@@ -708,13 +710,13 @@ function About() {
       <div className="container" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 56, alignItems: "flex-start" }}>
         <div className="about-photo-col" style={{ display: "flex", flexDirection: "column", gap: 20, maxWidth: 360, width: "100%", justifySelf: "start" }}>
           <div className="gs-wrap" style={{ aspectRatio: "4/5", borderRadius: 999, overflow: "hidden", position: "relative", background: "#dcdcdc", width: "100%" }}>
-            <div className="gs" style={{ position: "absolute", inset: 0, backgroundImage: "url(assets/jp-singh.png)", backgroundSize: "cover", backgroundPosition: "50% 18%", backgroundRepeat: "no-repeat" }} />
+            <div className="gs" style={{ position: "absolute", inset: 0, backgroundImage: "url(assets/prabhjot-bhandari.png)", backgroundSize: "cover", backgroundPosition: "50% 18%", backgroundRepeat: "no-repeat" }} />
           </div>
 
           <div style={{ border: "1px solid var(--line)", borderRadius: 6, padding: "20px 22px", background: "var(--paper)", display: "flex", alignItems: "center", justifyContent: "space-between", gap: 14 }}>
             <div>
-              <div className="clash" style={{ fontSize: 19, letterSpacing: "-0.02em", fontWeight: 600, lineHeight: 1.1 }}>Jaspal P. Singh</div>
-              <div className="uc" style={{ fontSize: 10, color: "var(--mute)", letterSpacing: "0.16em", marginTop: 6 }}>Principal · Est. 1998</div>
+              <div className="clash" style={{ fontSize: 19, letterSpacing: "-0.02em", fontWeight: 600, lineHeight: 1.1 }}>Ar. Prabhjot Bhandari</div>
+              <div className="uc" style={{ fontSize: 10, color: "var(--mute)", letterSpacing: "0.16em", marginTop: 6 }}>Founder & Principal Architect</div>
             </div>
             <svg width="74" height="40" viewBox="0 0 120 60" fill="none" aria-hidden="true">
               <path d="M6 42 C 18 18, 28 18, 32 36 C 36 50, 42 18, 50 30 C 56 38, 60 22, 66 32 C 72 42, 78 26, 84 34 C 90 42, 98 30, 110 26" stroke="#111" strokeWidth="1.5" strokeLinecap="round" fill="none" />
@@ -723,9 +725,9 @@ function About() {
           </div>
 
           <a
-            href="https://www.google.com/maps/search/?api=1&query=J.P.+Singh+%26+Co+SCO-545+Sector+70+Mohali"
+            href="https://www.google.com/maps/search/?api=1&query=SCO+545+Sector+70+Mohali+Punjab+160071"
             target="_blank" rel="noopener noreferrer"
-            onClick={(e) => { e.preventDefault(); window.open("https://www.google.com/maps/search/?api=1&query=J.P.+Singh+%26+Co+SCO-545+Sector+70+Mohali", "_blank", "noopener,noreferrer"); }}
+            onClick={(e) => { e.preventDefault(); window.open("https://www.google.com/maps/search/?api=1&query=SCO+545+Sector+70+Mohali+Punjab+160071", "_blank", "noopener,noreferrer"); }}
             className="gs-wrap"
             style={{ position: "relative", display: "block", aspectRatio: "16/10", borderRadius: 6, overflow: "hidden", background: "#1e1e1e" }}
           >
@@ -734,7 +736,7 @@ function About() {
             <div style={{ position: "absolute", left: 16, right: 16, bottom: 14, color: "#f6f6f6", display: "flex", justifyContent: "space-between", alignItems: "flex-end", gap: 12 }}>
               <div>
                 <div className="uc" style={{ fontSize: 9, letterSpacing: "0.18em", opacity: 0.8 }}>The Office</div>
-                <div className="clash" style={{ fontSize: 15, letterSpacing: "-0.02em", marginTop: 4, fontWeight: 600 }}>SCO-545, Sector 70 · Mohali</div>
+                <div className="clash" style={{ fontSize: 15, letterSpacing: "-0.02em", marginTop: 4, fontWeight: 600 }}>SCO 545, Top Floor · Sector 70 · Mohali</div>
               </div>
               <div className="uc" style={{ fontSize: 10, letterSpacing: "0.16em", border: "1px solid rgba(246,246,246,0.5)", padding: "6px 10px", borderRadius: 999, whiteSpace: "nowrap" }}>Get directions →</div>
             </div>
@@ -744,18 +746,21 @@ function About() {
         <div>
           <div className="uc" style={{ fontSize: 11, letterSpacing: "0.18em", color: "var(--mute)", marginBottom: 24 }}>◇ The Principal</div>
           <p className="clash" style={{ fontSize: "clamp(24px, 3.6vw, 48px)", letterSpacing: "-0.035em", lineHeight: 1.15, margin: 0, fontWeight: 500 }}>
-            J.P. Singh has spent <span className="serif-it">twenty-seven years</span> placing property across the Mohali tri-city. The firm is <span className="serif-it">GMADA</span> empanelled, <span className="serif-it">RERA</span> registered, and operates from SCO-545 on the main Sector 70 road.
+            Ar. Prabhjot Bhandari is the <span className="serif-it">Founder and Principal Architect</span> of Architects Accord — a full-service architectural and interior design firm based in <span className="serif-it">Mohali</span>.
+          </p>
+          <p style={{ marginTop: 24, fontSize: 15, color: "var(--ink-2)", lineHeight: 1.7 }}>
+            He specialises in delivering comprehensive design solutions for both residential and commercial sectors — encompassing architecture, civil engineering, interior design, renovations, and complete turnkey projects. With a deep commitment to craft and client vision, he has built a trusted practice serving clients across the Chandigarh tri-city area. His portfolio spans residential homes, commercial spaces, custom furniture, and large-scale renovation projects — each designed with precision and purpose.
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: 24, marginTop: 36, borderTop: "1px solid var(--line)", paddingTop: 28 }}>
-            <Credit k="Practice" v="Residential · Commercial · Land" />
-            <Credit k="Coverage" v="Mohali · Chandigarh · Zirakpur · Kharar · New Chandigarh" />
-            <Credit k="Empanelment" v="GMADA · JLPL · PUDA" />
-            <Credit k="Regulatory" v="PB-RERA Reg. PBREA-AG-0224" />
+            <Credit k="Practice" v="Residential · Commercial · Interiors · Turnkey" />
+            <Credit k="Coverage" v="Mohali · Chandigarh · Panchkula · Tri-city" />
+            <Credit k="Specialisations" v="Architecture · Civil Engineering · Interior Design · Furniture" />
+            <Credit k="Office" v="SCO 545, Top Floor, Sector 70, Mohali 160071" />
           </div>
           <div style={{ marginTop: 36, borderTop: "1px solid var(--line)", paddingTop: 24, display: "flex", alignItems: "center", gap: 24, flexWrap: "wrap" }}>
-            <div className="uc" style={{ fontSize: 10, letterSpacing: "0.18em", color: "var(--mute)" }}>As featured at</div>
-            <div className="clash" style={{ fontSize: 16, letterSpacing: "-0.02em", fontWeight: 600 }}>The Tribune Real Estate Conclave</div>
-            <div style={{ fontSize: 13, color: "var(--mute)" }}>2025</div>
+            <div className="uc" style={{ fontSize: 10, letterSpacing: "0.18em", color: "var(--mute)" }}>Based in</div>
+            <div className="clash" style={{ fontSize: 16, letterSpacing: "-0.02em", fontWeight: 600 }}>Mohali, Punjab — Serving the Tri-city</div>
+            <div style={{ fontSize: 13, color: "var(--mute)" }}>Est. 15+ years</div>
           </div>
         </div>
       </div>
@@ -785,10 +790,9 @@ function ContactBanner() {
             </h2>
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: 12, alignItems: "flex-end" }}>
-            <a href="tel:+919814961008" className="clash" style={{ fontSize: "clamp(22px,3.5vw,28px)", letterSpacing: "-0.02em", fontWeight: 600 }}>+91 98149 61008</a>
-            <a href="tel:+919646401401" style={{ fontSize: 16, color: "var(--mute)" }}>+91 96464 01401</a>
-            <a href="mailto:office@jpsinghproperties.in" className="uc" style={{ fontSize: 11, letterSpacing: "0.16em", marginTop: 8, borderBottom: "1px solid var(--ink)", paddingBottom: 4 }}>
-              office@jpsinghproperties.in
+            <a href="tel:+911725095173" className="clash" style={{ fontSize: "clamp(22px,3.5vw,28px)", letterSpacing: "-0.02em", fontWeight: 600 }}>0172 509 5173</a>
+            <a href="mailto:architectsaccord@gmail.com" className="uc" style={{ fontSize: 11, letterSpacing: "0.16em", marginTop: 8, borderBottom: "1px solid var(--ink)", paddingBottom: 4 }}>
+              architectsaccord@gmail.com
             </a>
           </div>
         </div>
@@ -806,24 +810,23 @@ function Footer() {
           <div>
             <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
               <Crown />
-              <div className="clash" style={{ color: "#f6f6f6", fontSize: 20, letterSpacing: "-0.03em" }}>J.P. SINGH & Co.</div>
+              <div className="clash" style={{ color: "#f6f6f6", fontSize: 20, letterSpacing: "-0.03em" }}>ARCHITECTS <span style={{ fontFamily: "Gambarino, Georgia, serif", fontStyle: "italic", fontWeight: 400, letterSpacing: "-0.02em" }}>Accord</span></div>
             </div>
             <p style={{ marginTop: 20, fontSize: 14, lineHeight: 1.65, maxWidth: 300 }}>
-              Property consultants & investment experts to the Mohali tri-city. GMADA/RERA accredited since 1998. SCO-545, Sector 70 main road, Mohali, Punjab.
+              Architecture & interior design firm serving the Chandigarh tri-city. Residential, commercial, civil engineering, and turnkey projects. SCO 545, Top Floor, Sector 70, Mohali, Punjab 160071.
             </p>
           </div>
-          <FooterCol head="Navigate" links={[["Portfolio", "#portfolio"], ["Practice", "#practice"], ["Services", "#insights"], ["About", "#about"]]} />
-          <FooterCol head="Practice" links={[["Residential", "#"], ["Commercial", "#"], ["Land & Plots", "#"], ["NRI Services", "#"]]} />
+          <FooterCol head="Navigate" links={[["Portfolio", "#portfolio"], ["Our Practice", "#practice"], ["Services", "#insights"], ["About", "#about"]]} />
+          <FooterCol head="Services" links={[["Residential Architecture", "#"], ["Commercial Architecture", "#"], ["Interior Design", "#"], ["Turnkey Projects", "#"]]} />
           <FooterCol head="Contact" links={[
-            [<span><IconPhone/> +91 98149 61008</span>, "tel:+919814961008"],
-            [<span><IconPhone/> +91 96464 01401</span>, "tel:+919646401401"],
-            [<span><IconMail/> office@jpsinghproperties.in</span>, "mailto:office@jpsinghproperties.in"],
-            [<span><IconPin/> SCO-545, Sector 70, Mohali</span>, "#"],
+            [<span><IconPhone/> 0172 509 5173</span>, "tel:+911725095173"],
+            [<span><IconMail/> architectsaccord@gmail.com</span>, "mailto:architectsaccord@gmail.com"],
+            [<span><IconPin/> SCO 545, Top Floor, Sector 70, Mohali 160071</span>, "#"],
           ]} />
         </div>
         <div style={{ borderTop: "1px solid rgba(255,255,255,0.08)", paddingTop: 24, display: "flex", justifyContent: "space-between", alignItems: "center", gap: 16, flexWrap: "wrap" }}>
-          <div className="uc" style={{ fontSize: 10, letterSpacing: "0.18em" }}>© 2026 J.P. Singh & Co. — All rights reserved</div>
-          <div className="uc" style={{ fontSize: 10, letterSpacing: "0.18em" }}>PB-RERA · GMADA · JLPL Empanelled</div>
+          <div className="uc" style={{ fontSize: 10, letterSpacing: "0.18em" }}>© 2026 Architects Accord — All rights reserved</div>
+          <div className="uc" style={{ fontSize: 10, letterSpacing: "0.18em" }}>Architecture · Interior Design · Civil Engineering · Mohali</div>
         </div>
       </div>
     </footer>
@@ -855,8 +858,8 @@ function IconPin() { return <svg width="14" height="14" viewBox="0 0 24 24" fill
 /* ───────────────────── WhatsApp Float ───────────────────── */
 function WhatsAppFab() {
   const [hover, setHover] = useState(false);
-  const phone = "919814961008";
-  const text = encodeURIComponent("Hello J.P. Singh & Co. — I would like to enquire about a property listing.");
+  const phone = "911725095173";
+  const text = encodeURIComponent("Hello Architects Accord — I would like to enquire about your architecture and design services.");
   return (
     <a
       href={`https://wa.me/${phone}?text=${text}`}
@@ -880,7 +883,7 @@ function WhatsAppFab() {
 /* ───────────────────── App ───────────────────── */
 function App() {
   const [active, setActive] = useState(null);
-  const props = window.JP_PROPERTIES || [];
+  const props = window.AA_PROJECTS || [];
 
   return (
     <>
